@@ -13,7 +13,6 @@ function WelcomePage() {
             <span>
                 <Button className="welcomeButton" variant="danger">RIDER</Button>
                 <Button className="welcomeButton" variant="danger">DRIVER</Button>
-                <Button className="welcomeButton" variant="danger">test</Button>
 
             </span>
         </div>
