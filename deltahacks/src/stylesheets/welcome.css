@@ -1,0 +1,38 @@
+/*stylesheet for the welcome screen components only*/
+h2
+{
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.welcomeButton
+{
+    width: 80%;
+    border-radius: 50px;
+    margin: 10px;
+    height: 80px;
+    background-color: #751c2f;
+}
+
+.WelcomePage
+{
+    width: 50%;
+    margin: 0 auto;
+    position: absolute;
+    top: 25%;
+    transform: translateY(-50%);
+    transform: translateX(50%);
+    text-align: center;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgb(54, 54, 54);
+}
+
+html
+{
+    text-align: center;
+}
+
+body
+{
+    background-color: rgb(231, 231, 231);
+}
