@@ -10,21 +10,27 @@ h2
     width: 70%;
 }
 
-.directionButton
+.directionButton, .submit
 {
     width: 80%;
     border-radius: 50px;
-    margin: 0;
-    height: 80px;
+    margin: 2px;
+    height: 50px;
     background-color: #751c2f;
     border-color: #751c2f;
     font-size: 20px;
 }
 
-.directionButton:hover
+.directionButton:hover, .submit:hover
 {
     background-color: #aa2441;
     border-color: #aa2441;
+}
+
+.submit
+{
+    width: 35%;
+    height: 50px;
 }
 
 .RiderFormPage
@@ -59,4 +65,5 @@ body
 #formGridCity
 {
     height: 50px;
+    border-radius: 50px;
 }

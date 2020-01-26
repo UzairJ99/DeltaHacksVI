@@ -48,11 +48,16 @@ class RiderFormPage extends React.Component{
         <div>
           <Form>
             <Form.Group controlId="formGridCity">
-              <Form.Label>{this.state.direction} (City)</Form.Label>
-              <Form.Control />
+              <Form.Label>{this.state.direction}</Form.Label>
+              <Form.Control placeholder="Search By City Name"/>
             </Form.Group>
           </Form>
         </div>
+        <br></br>
+        <span>
+          <Button className="submit" variant="danger">Search</Button>
+        </span>
+        <br></br>
         <br></br>
         <p><i>DeltaHacksVI Project 2020</i></p>
       </div>
