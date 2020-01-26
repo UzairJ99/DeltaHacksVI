@@ -33,7 +33,7 @@ class DriverFormPage extends React.Component{
   {
     return (
       <div className="DriverFormPage">
-        <h2><b>RIDER</b></h2>
+        <h2><b>DRIVER</b></h2>
         <p></p>
         <p>Please answer the following</p>
         <hr></hr>

@@ -1,11 +1,17 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import '../stylesheets/login.css';
 import loginImg from "../images/login.svg";
-
+import WelcomePage from "./WelcomePage";
 
 export class LoginPage extends React.Component {
   constructor(props) {
-    super(props);
+    super(props); 
+  }
+
+  handleLogin = () =>
+  {
+    ReactDOM.render(<WelcomePage/>, document.getElementById('root'));
   }
 
   render() {
@@ -28,10 +34,9 @@ export class LoginPage extends React.Component {
             </div>
           </div>
           <div className="footer">
-            <button type="button" className="btn">Login</button>
+            <button type="button" onClick={this.handleLogin} className="btn">Login</button>
           </div>
         </div>
-
     );
   }
 }
