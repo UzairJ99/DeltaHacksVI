@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { compose, withProps } from 'recompose';
 import DirectionsAux from './DirectionsAux';
-import { G_API_URL } from '../utility/constants';
-import DummyLocations from '../utility/dummyLocations';
+import { G_API_URL } from '../utility/cities';
+import DummyLocations from '../utility/connections';
 import { withScriptjs, withGoogleMap, GoogleMap } from 'react-google-maps';
 
 class Directions extends Component {

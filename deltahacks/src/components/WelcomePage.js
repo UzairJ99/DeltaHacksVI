@@ -13,7 +13,6 @@ function WelcomePage() {
             <span>
                 <Button className="welcomeButton" variant="danger">RIDER</Button>
                 <Button className="welcomeButton" variant="danger">DRIVER</Button>
-
             </span>
         </div>
         <p><i>DeltaHacksVI Project 2020</i></p>

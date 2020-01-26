@@ -1,4 +1,4 @@
-import { locationsList } from "./constants";
+import { locationsList } from "./cities";
 import { createLocationObject } from "./auxFncs";
 
 const directions = [

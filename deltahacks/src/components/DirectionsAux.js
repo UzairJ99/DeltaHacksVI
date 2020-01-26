@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { convertLatLngToObj } from '../utility/helper';
+import { convertLatLngToObj } from '../utility/auxFncs';
 import { Marker, DirectionsRenderer } from 'react-google-maps';
 
 class DirectionsAux extends Component {
