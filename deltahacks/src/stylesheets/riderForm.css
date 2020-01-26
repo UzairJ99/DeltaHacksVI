@@ -67,3 +67,9 @@ body
     height: 50px;
     border-radius: 50px;
 }
+
+#textLabel
+{
+    margin: 0 auto;
+    font-size: 16px;
+}
