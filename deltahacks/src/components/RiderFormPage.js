@@ -5,6 +5,7 @@ import '../stylesheets/riderForm.css';
 import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import Form from 'react-bootstrap/Form';
+import Directions from './Directions';
 
 class RiderFormPage extends React.Component{
   //search bar label
@@ -29,6 +30,11 @@ class RiderFormPage extends React.Component{
     event.target.style.backgroundColor = "#aa2441";
     document.getElementById("from").style.backgroundColor = "#751c2f";
   }
+
+  handleSearch = () =>
+    {
+      ReactDOM.render(<Directions/>, document.getElementById('root'));
+    }
 
   render()
   {
@@ -55,7 +61,7 @@ class RiderFormPage extends React.Component{
           </Form>
         </div>
         <span>
-          <Button className="submit" variant="danger">Search</Button>
+          <Button className="submit" variant="danger" onClick={this.handleSearch}>Search</Button>
         </span>
         <br></br>
         <br></br>
