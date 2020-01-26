@@ -5,24 +5,29 @@ h2
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.welcomeButton
+.toggleButtons
 {
-    width: 60%;
+    width: 70%;
+}
+
+.directionButton
+{
+    width: 80%;
     border-radius: 50px;
-    margin: 10px;
+    margin: 0;
     height: 80px;
     background-color: #751c2f;
     border-color: #751c2f;
-    font-size: 28px;
+    font-size: 20px;
 }
 
-.welcomeButton:hover
+.directionButton:hover
 {
     background-color: #aa2441;
     border-color: #aa2441;
 }
 
-.WelcomePage
+.RiderFormPage
 {
     width: 50%;
     margin: 0 auto;
@@ -43,4 +48,15 @@ html
 body
 {
     background-color: rgb(231, 231, 231);
+}
+
+.form-group
+{
+    width: 70%;
+    margin: 0 auto;
+}
+
+#formGridCity
+{
+    height: 50px;
 }

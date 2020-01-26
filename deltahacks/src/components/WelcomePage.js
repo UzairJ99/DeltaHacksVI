@@ -8,7 +8,7 @@ function WelcomePage() {
     <div className="WelcomePage">
         <h2><b>WELCOME</b></h2>
         <p></p>
-        <p>Please choose an option:</p>
+        <p>Please choose an option</p>
         <div>
             <span>
                 <Button className="welcomeButton" variant="danger">RIDER</Button>
