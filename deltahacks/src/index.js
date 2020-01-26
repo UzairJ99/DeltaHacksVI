@@ -3,9 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import WelcomePage from './components/WelcomePage.js';
 import RiderFormPage from './components/RiderFormPage.js';
+import LoginPage from './components/LoginPage.js';
+import RegisterPage from './components/RegisterPage.js';
+import AuthenticationPage from './components/AuthenticationPage.js';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<RiderFormPage/>, document.getElementById('root'));
+ReactDOM.render(<AuthenticationPage/>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

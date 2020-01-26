@@ -1,6 +1,6 @@
 import React from 'react';
 import '../stylesheets/login.css';
-import loginImg from "../Images/login.svg";
+import loginImg from "../images/login.svg";
 
 
 export class RegisterPage extends React.Component {
