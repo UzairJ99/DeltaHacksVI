@@ -33,28 +33,28 @@ class RiderFormPage extends React.Component{
   {
     return (
       <div className="RiderFormPage">
-          <h2><b>RIDER</b></h2>
-          <p></p>
-          <p>Please answer the following</p>
-          <hr></hr>
-          <p>Direction</p>
-          <div>
-              <ButtonGroup className="toggleButtons" aria-label="Basic example">
-                  <Button id="from" className="directionButton" variant="danger" onClick={this.onClickFrom}>From McMaster</Button>
-                  <Button id="to" className="directionButton" variant="danger" onClick={this.onClickTo}>To McMaster</Button>
-              </ButtonGroup>
-          </div>
-          <p></p>
-          <div>
-            <Form>
-                <Form.Group controlId="formGridCity">
-                  <Form.Label>{this.state.direction} (City)</Form.Label>
-                  <Form.Control />
-                </Form.Group>
-            </Form>
-          </div>
-          <br></br>
-          <p><i>DeltaHacksVI Project 2020</i></p>
+        <h2><b>RIDER</b></h2>
+        <p></p>
+        <p>Please answer the following</p>
+        <hr></hr>
+        <p>Direction</p>
+        <div>
+          <ButtonGroup className="toggleButtons" aria-label="Basic example">
+            <Button id="from" className="directionButton" variant="danger" onClick={this.onClickFrom}>From McMaster</Button>
+            <Button id="to" className="directionButton" variant="danger" onClick={this.onClickTo}>To McMaster</Button>
+          </ButtonGroup>
+        </div>
+        <p></p>
+        <div>
+          <Form>
+            <Form.Group controlId="formGridCity">
+              <Form.Label>{this.state.direction} (City)</Form.Label>
+              <Form.Control />
+            </Form.Group>
+          </Form>
+        </div>
+        <br></br>
+        <p><i>DeltaHacksVI Project 2020</i></p>
       </div>
     );
   }
