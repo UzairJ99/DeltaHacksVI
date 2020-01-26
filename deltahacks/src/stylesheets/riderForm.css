@@ -46,6 +46,20 @@ h2
     box-shadow: 1px 1px 10px rgb(54, 54, 54);
 }
 
+
+.DriverFormPage
+{
+    width: 50%;
+    margin: 0 auto;
+    position: absolute;
+    top: 25%;
+    transform: translateY(-50%);
+    transform: translateX(50%);
+    text-align: center;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgb(54, 54, 54);
+}
+
 html
 {
     text-align: center;

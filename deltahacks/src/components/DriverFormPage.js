@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import Form from 'react-bootstrap/Form';
 
-class RiderFormPage extends React.Component{
+class DriverFormPage extends React.Component{
   //search bar label
   state = {direction: "To"};
 
@@ -32,7 +32,7 @@ class RiderFormPage extends React.Component{
   render()
   {
     return (
-      <div className="RiderFormPage">
+      <div className="DriverFormPage">
         <h2><b>RIDER</b></h2>
         <p></p>
         <p>Please answer the following</p>
@@ -54,7 +54,7 @@ class RiderFormPage extends React.Component{
           </Form>
         </div>
         <span>
-          <Button className="submit" variant="danger">Search</Button>
+          <Button className="submit" variant="danger">Post a Ride</Button>
         </span>
         <br></br>
         <br></br>
@@ -64,4 +64,4 @@ class RiderFormPage extends React.Component{
   }
 }
 
-export default RiderFormPage;
+export default DriverFormPage;
